@@ -1,0 +1,13 @@
+<div class="header alt vert">
+    <div class="container">
+        <h1>Batalha de Personagens</h1>
+        <p class="lead">Clique no personagem para votar</p>
+        <a ng-click="arena.restart()" class="btn btn-default btn-lg">Nova Batalha!</a>
+    </div>
+</div>
+
+<div class="blurb bright">
+    <div class="row">
+        <mv-character ng-repeat="character in arena.characters"></mv-character>
+    </div>
+</div>

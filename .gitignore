@@ -1,0 +1,9 @@
+node_modules
+dist
+coverage
+.tmp
+.sass-cache
+src/bower_components/
+src/app/marvel-config.js
+.idea/
+*.iml
